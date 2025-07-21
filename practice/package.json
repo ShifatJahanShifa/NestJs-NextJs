@@ -1,8 +1,8 @@
 {
-  "name": "my-first-app",
+  "name": "practice",
   "version": "0.0.1",
-  "description": "my first project in nest js",
-  "author": "Shifat Jahan Shifa",
+  "description": "",
+  "author": "",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -22,6 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^11.0.1",
     "@types/dotenv": "^6.1.1",
     "class-transformer": "^0.5.1",
