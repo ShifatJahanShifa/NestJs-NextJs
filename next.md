@@ -17,3 +17,22 @@ time to interact
 server simulates the browser, runs the full application, sees how the html css are.
 
 command: nest new "project name"
+
+
+the features that i need to learn: 
+
+1. styling
+2. optimizations: how to optimize links, fonts, images
+3. routing: how to create nested layouts and pages uisng file-system routing.
+4. data fetching: how to set up a postgres database on vercel, best practices for fetching and steaming.
+5. search and pagination: how to implement search and pagination using URL search params.
+6. mutating data **
+7. error handling
+8. form validation and accessibility
+9. authentication using NextAuth.js
+10. Metadata: add metadata and social sharing
+
+cmd:
+```
+json-server --watch --port 4000 ./_data/db.json
+```
