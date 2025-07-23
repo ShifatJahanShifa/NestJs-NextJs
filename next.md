@@ -36,3 +36,8 @@ cmd:
 ```
 json-server --watch --port 4000 ./_data/db.json
 ```
+
+Both server and client components are rendered in the server. but the client components are hydrated in the client/browser to add in any user interactivity whereas server components are not. so, when i need to have local state or user interactivity, then i will have client components. state means the current state of a variable or data. hydrated means, by using "use client", i am telling the next.js that it is a client component. so it needs to be hydrated in the browser with javascript. 
+we can nest client component inside server component.
+
+suggestion: try to make server component as many as possible. and then sprinkle in the client components.

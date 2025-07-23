@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import React from 'react';
 
-interface TicketDetailsProps {
+type TicketDetailsProps = {
   params: {
     ticketId: string;
   };
